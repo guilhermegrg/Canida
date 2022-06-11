@@ -1,0 +1,9 @@
+Since it is described that each entity has a unique name, the name could be used as the primary key.
+For the purpose of this exercise, I went with what I would do in real life, and that would be to have a primary key for the Teaches, Courses and Students tables.
+We then can add a unique index to the "name" field for faster access and searches.
+
+As each Course is lectured by a single Teacher, and a single Teacher may lecture several Courses, this relationship can in practice be modeled as a foreign key in the Courses table with the teacher_id value.
+
+In regards to the Courses-Students relation, this requires that we have a separate Table, associating a Course to all of its students.
+So a Course may have multiple students enrolled, and a Student may enroll in multiple Courses.
+Here, there is no need for a separate numeric primary key, as we can use a compound unique key of course_id and student_id as the primary key, which are also foreign keys to the Courses and Students tables, respectively.

@@ -1,0 +1,85 @@
+{
+    "teachers": [
+        {
+            "id": 1,
+            "name": "Guilherme Gomes"
+        },
+        {
+            "id": 2,
+            "name": "Elisa Barradas"
+        },
+        {
+            "id": 3,
+            "name": "Bruno Caldeira"
+        },
+        {
+            "id": 4,
+            "name": "Jorge Câmara"
+        },
+        {
+            "id": 5,
+            "name": "Rui Caldas"
+        }
+    ],
+    "students": [
+        {
+            "id": 1,
+            "name": "Ramiro Luís"
+        },
+        {
+            "id": 2,
+            "name": "Elisabete Alves"
+        },
+        {
+            "id": 3,
+            "name": "José Nogueira"
+        },
+        {
+            "id": 4,
+            "name": "Patrícia Gonçalves"
+        },
+        {
+            "id": 5,
+            "name": "Gertrude Mariposa"
+        }
+    ],
+    "courses": [
+        {
+            "id": 1,
+            "name": "Data Structures and Algoritms",
+            "teacher_id": 1,
+            "student_ids": [
+                5,
+                4,
+                3,
+                2,
+                1
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Cooking 101",
+            "teacher_id": 5,
+            "student_ids": []
+        },
+        {
+            "id": 3,
+            "name": "Organic Chemistry",
+            "teacher_id": 3,
+            "student_ids": [
+                4,
+                1
+            ]
+        },
+        {
+            "id": 4,
+            "name": "History of Futurama",
+            "teacher_id": 2,
+            "student_ids": [
+                2,
+                5,
+                3
+            ]
+        }
+    ]
+}
