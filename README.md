@@ -19,7 +19,7 @@ docker build -t canida .
 
 
 
-To tun the docker image:
+To run the docker image:
 docker run -d -p 4321:4321 --name guilhermegrg_canida canida
 
 
